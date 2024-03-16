@@ -35,17 +35,15 @@ The code and checkpoints will be released  and the release plan is roughly as fo
 ## Overview
 
 ### The Overview of Chain-of-Imagination within *MineDreamer*
-
-
-
-<img src="img/pipeline_2.jpg" alt="Logo" style="height:550px;vertical-align:middle">
-
+<div align="center"> 
+    <img src="img/pipeline_2.jpg" alt="Logo" style="height:400px;vertical-align:middle">
+</div>
 
 
 ### The Overview Framework of Imaginator within *MineDreamer*
-
-<img src="img/imaginator_2.jpg" alt="Logo" style="height:450px;vertical-align:middle">
-
+<div align="center"> 
+    <img src="img/imaginator_2.jpg" alt="Logo" style="height:400px;vertical-align:middle">
+</div>
 
 
 
@@ -61,8 +59,8 @@ More demo videos and Imagination visual results are on our [project webpage](htt
 
 ### Imagination Visual Results During Agent Solving Open-ended Tasks
 <div align="center"> 
-    <img src="img/inference_1.jpg" alt="Logo" style="height:600px;vertical-align:middle">
-    <img src="img/inference_2.jpg" alt="Logo" style="height:600px;vertical-align:middle">
+    <img src="img/inference_1.jpg" alt="Logo" style="height:400px;vertical-align:middle">
+    <img src="img/inference_2.jpg" alt="Logo" style="height:400px;vertical-align:middle">
 </div>
 
 
