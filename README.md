@@ -3,7 +3,7 @@
 <div align="center">
 <h1><img src="img/logo.png" alt="Logo" style="height:50px;vertical-align:middle"><i>MineDreamer</i> : Learning to Follow Instructions via </center> <br> <center>Chain-of-Imagination for Simulated-World Control </h1>
 
-📢 We are currently organizing the code for *MineDreamer*. If you are interested in our work, please star ⭐ our project.
+📢 We are organizing the code for *MineDreamer* now. If you are interested in our work, please star ⭐ our project.
 
 🚧 [Project Page](https://sites.google.com/view/minedreamer) |  📖 Arxiv | 🗒️ PDF | 📊 Dataset
 
