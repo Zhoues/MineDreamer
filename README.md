@@ -59,8 +59,8 @@ More demo videos and Imagination visual results are on our [project webpage](htt
 
 ### Imagination Visual Results During Agent Solving Open-ended Tasks
 <div align="center"> 
-    <img src="img/inference_1.jpg" alt="Logo" style="height:400px;vertical-align:middle">
-    <img src="img/inference_2.jpg" alt="Logo" style="height:400px;vertical-align:middle">
+    <img src="img/inference_1.jpg" alt="Logo" style="height:620px;vertical-align:middle">
+    <img src="img/inference_2.jpg" alt="Logo" style="height:620px;vertical-align:middle">
 </div>
 
 
