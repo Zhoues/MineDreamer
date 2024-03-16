@@ -3,7 +3,9 @@
 <div align="center">
 <h1><img src="img/logo.png" alt="Logo" style="height:50px;vertical-align:middle"><i>MineDreamer</i> : Learning to Follow Instructions via </center> <br> <center>Chain-of-Imagination for Simulated-World Control </h1>
 
-[Project Page](https://sites.google.com/view/minedreamer) | Arxiv | PDF | Dataset
+📢 We are currently organizing the code for *MineDreamer*. If you are interested in our work, please star ⭐ our project.
+
+🚧 [Project Page](https://sites.google.com/view/minedreamer) |  📖 Arxiv | 🗒️ PDF | 📊 Dataset
 
 
 [<img src="https://img.shields.io/badge/Framework-PyTorch-red.svg"/>](https://pytorch.org/)
@@ -14,24 +16,22 @@
 
 
 
-## News
-🥳 We are currently organizing the code for MineDreamer. If you are interested in our work, please star ⭐ our project.
+## 🔥 Updates
+[2024-03-15] The Project page is set up at [here](https://sites.google.com/view/minedreamer)
 
 
 
-## Try MineDreamer
+## 😋 Try *MineDreamer*
+The code and checkpoints will be released  and the release plan is roughly as follows:
 
-🥰 The code and checkpoints will be released  and the release plan is roughly as follows:
-
-- [ ] MineDreamer(wo Imaginator) Code;  Baseline Code(i.e., VPT, STEVE-1, Multi-Modal Memory)
+- [ ] *MineDreamer*(wo Imaginator) Code;  Baseline Code(i.e., VPT, STEVE-1, Multi-Modal Memory)
 - [ ] Imaginator Code; Imaginator CheckPoints
 - [ ] Dataset & Training Scripts; Let's enjoy creating your dataset and training your own model
 
 
 
 
-
-## Overview
+## 🕶️Overview
 
 ### The Overview of Chain-of-Imagination within *MineDreamer*
 <div align="center"> 
@@ -47,9 +47,8 @@
 
 
 
-## Demo video and Imagination Visual Results
-
-😋 More demo videos and Imagination visual results are on our [project webpage](https://sites.google.com/view/minedreamer).
+## 📹 Demo video and Imagination Visual Results
+More demo videos and Imagination visual results are on our [project webpage](https://sites.google.com/view/minedreamer).
 
 ### Imagination Visual Results on Evaluation Set Compared to the Baseline
 <div align="center"> 
@@ -66,9 +65,9 @@
 
 
 
-## Citation
+## 📑 Citation
 
-If you find MineDreamer useful for your research and applications, please cite using this BibTeX:
+If you find *MineDreamer* useful for your research and applications, please cite using this BibTeX:
 ```
 waiting...
 ```
