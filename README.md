@@ -35,7 +35,7 @@ The code and checkpoints will be released  and the release plan is roughly as fo
 
 ### The Overview of Chain-of-Imagination within *MineDreamer*
 <div align="center"> 
-    <img src="img/pipeline_2.jpg" alt="Logo" style="height:400px;vertical-align:middle">
+    <img src="img/pipeline_2.png" alt="Logo" style="height:460px;vertical-align:middle">
 </div>
 
 
