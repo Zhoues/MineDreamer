@@ -18,6 +18,7 @@
 
 ## 🔥 Updates
 [2024-03-19] *MineDreamer* is released on [arxiv](https://arxiv.org/abs/2403.12037).
+
 [2024-03-15] The Project page is set up at [here](https://sites.google.com/view/minedreamer).
 
 
