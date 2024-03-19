@@ -5,7 +5,7 @@
 
 📢 We are organizing the code for *MineDreamer* now. If you are interested in our work, please star ⭐ our project.
 
-🚧 [Project Page](https://sites.google.com/view/minedreamer) |  📖 Arxiv | 🗒️ PDF | 📊 Dataset
+🚧 [Project Page](https://sites.google.com/view/minedreamer) |  📖 [Arxiv](https://arxiv.org/abs/2403.12037) | 🗒️ [PDF](https://arxiv.org/pdf/2403.12037.pdf) 
 
 
 [<img src="https://img.shields.io/badge/Framework-PyTorch-red.svg"/>](https://pytorch.org/)
@@ -69,5 +69,12 @@ More demo videos and Imagination visual results are on our [project webpage](htt
 
 If you find *MineDreamer* useful for your research and applications, please cite using this BibTeX:
 ```
-waiting...
+@misc{zhou2024minedreamer,
+      title={MineDreamer: Learning to Follow Instructions via Chain-of-Imagination for Simulated-World Control}, 
+      author={Enshen Zhou and Yiran Qin and Zhenfei Yin and Yuzhou Huang and Ruimao Zhang and Lu Sheng and Yu Qiao and Jing Shao},
+      year={2024},
+      eprint={2403.12037},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
