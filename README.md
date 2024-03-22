@@ -71,12 +71,10 @@ More demo videos and Imagination visual results are on our [project webpage](htt
 
 If you find *MineDreamer* useful for your research and applications, please cite using this BibTeX:
 ```
-@misc{zhou2024minedreamer,
-      title={MineDreamer: Learning to Follow Instructions via Chain-of-Imagination for Simulated-World Control}, 
-      author={Enshen Zhou and Yiran Qin and Zhenfei Yin and Yuzhou Huang and Ruimao Zhang and Lu Sheng and Yu Qiao and Jing Shao},
-      year={2024},
-      eprint={2403.12037},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{zhou2024minedreamer,
+  title={MineDreamer: Learning to Follow Instructions via Chain-of-Imagination for Simulated-World Control},
+  author={Zhou, Enshen and Qin, Yiran and Yin, Zhenfei and Huang, Yuzhou and Zhang, Ruimao and Sheng, Lu and Qiao, Yu and Shao, Jing},
+  journal={arXiv preprint arXiv:2403.12037},
+  year={2024}
 }
 ```
