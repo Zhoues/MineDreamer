@@ -3,7 +3,7 @@
 <div align="center">
 <h1><img src="img/logo.png" alt="Logo" style="height:50px;vertical-align:middle"><i>MineDreamer</i> : Learning to Follow Instructions via </center> <br> <center>Chain-of-Imagination for Simulated-World Control </h1>
 
-🥰 If you are interested in our work, feel free to star ⭐ our repo to support us ~
+**🥰 If you are interested in our work, feel free to star ⭐ our repo to support us ~**
 
 🚧 [Project Page](https://sites.google.com/view/minedreamer/main) |  📖 [Arxiv](https://arxiv.org/abs/2403.12037) | 🗒️ [PDF](https://arxiv.org/pdf/2403.12037.pdf) 
 
@@ -29,9 +29,7 @@ The code and checkpoints are released and the open-source contents include the f
 - ✅ *MineDreamer* Goal Drift Dataset and MineDreamer weights, including MineDreamer-7B of Imaginator and Prompt Generator.
 - ✅ *MineDreamer* Training Scripts, including The Imaginator training stage 2 and 3. 
 
-- Note: 
-    1. For Imaginator training stage 1, we only provide pre-trained Q-Former weights.
-    2. We only provide the weights and if you want to train your own Prompt Generator, please refer to [STEVE-1](https://github.com/Shalev-Lifshitz/STEVE-1/tree/main?tab=readme-ov-file#training) to collect data and train it.
+- Note: For Imaginator training stage 1, we only provide pre-trained Q-Former weights. For Prompt Generator, we only provide the weights and if you want to train your own Prompt Generator, please refer to [STEVE-1](https://github.com/Shalev-Lifshitz/STEVE-1/tree/main?tab=readme-ov-file#training) to collect data and train it.
 ### Directory Structure:
 ```
 .
@@ -78,8 +76,10 @@ The code and checkpoints are released and the open-source contents include the f
 This codebase has stringent environmental requirements; we recommend following the tutorial below step by step.
 
 1. We recommend running on linux using a conda environment, with python 3.9: `conda create -n imaginator python=3.9`.
-2. Install pytorch for cuda-118: `pip install --pre torch==2.2.0.dev20231010+cu118 torchvision==0.17.0.dev20231010+cu118 torchaudio==2.2.0.dev20231010+cu118 --index-url https://download.pytorch.org/whl/nightly/cu118
-`
+2. Install pytorch for cuda-118: 
+    ```
+    pip install --pre torch==2.2.0.dev20231010+cu118 torchvision==0.17.0.dev20231010+cu118 torchaudio==2.2.0.dev20231010+cu118 --index-url https://download.pytorch.org/whl/nightly/cu118
+    ```
     - Note: The version of torch may change over time. If you meet some error which means that the following version does not exist, please change the right version by using the error infomation.
 3. Install additional packages: `pip install -r requirements.txt`
 4. Install DeepSpeed: `DS_BUILD_AIO=1 DS_BUILD_FUSED_LAMB=1 pip install deepspeed`
