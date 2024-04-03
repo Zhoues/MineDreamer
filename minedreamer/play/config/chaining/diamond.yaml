@@ -1,0 +1,18 @@
+model:
+  in_model: data/weights/vpt/2x.model
+  in_weights: data/weights/steve1/steve1.weights
+
+conditioning:
+  cond_scale: 6.0
+
+dreamer:
+  dreamer_url: 
+
+environment:
+  env_seed: 8888888888888
+  preferred_spawn_biome: extreme_hills
+  custom_init_commands:
+    - /replaceitem entity @p weapon.mainhand minecraft:diamond_pickaxe{Enchantments:[{id:"minecraft:efficiency",lvl:5},{id:"minecraft:unbreaking",lvl:3}]}
+    - /effect give @a night_vision 99999 250
+  inventory:
+    

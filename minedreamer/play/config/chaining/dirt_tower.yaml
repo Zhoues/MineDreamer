@@ -1,0 +1,16 @@
+model:
+  in_model: data/weights/vpt/2x.model
+  in_weights: data/weights/steve1/steve1.weights
+
+conditioning:
+  cond_scale: 6.0
+
+dreamer:
+  dreamer_url: 
+
+environment:
+  env_seed: 800
+  preferred_spawn_biome: plains
+  custom_init_commands:
+  inventory:
+    

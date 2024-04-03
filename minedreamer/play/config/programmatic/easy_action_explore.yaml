@@ -1,0 +1,33 @@
+model:
+  in_model: data/weights/vpt/2x.model
+  in_weights: data/weights/steve1/steve1.weights
+
+conditioning:
+  cond_scale: 6.0
+
+gameplay:
+  gameplay_length: 3000
+
+dreamer:
+  dreamer_url: 
+
+frequency:
+  freq: 25
+
+prompt:
+  text_prompt: "go explore"
+
+environment:
+  env_seed: 
+    - 600
+    - 603
+    - 606
+    - 610
+    - 621
+    - 628
+    - 651
+    - 653
+    - 671
+    - 686
+  preferred_spawn_biome: plains
+  inventory:

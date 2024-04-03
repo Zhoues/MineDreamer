@@ -1,0 +1,24 @@
+model:
+  in_model: data/weights/vpt/2x.model
+  in_weights: data/weights/steve1/steve1.weights
+
+conditioning:
+  cond_scale: 6.0
+
+gameplay:
+  gameplay_length: 3000
+
+dreamer:
+  dreamer_url: 
+
+frequency:
+  freq: 25
+
+prompt:
+  text_prompt: "look at the sky"
+
+environment:
+  env_seed: 6
+  preferred_spawn_biome: plains
+  inventory:
+

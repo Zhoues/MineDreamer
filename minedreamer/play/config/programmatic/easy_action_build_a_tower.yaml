@@ -1,0 +1,53 @@
+model:
+  in_model: data/weights/vpt/2x.model
+  in_weights: data/weights/steve1/steve1.weights
+
+conditioning:
+  cond_scale: 6.0
+
+gameplay:
+  gameplay_length: 3000
+
+dreamer:
+  dreamer_url: 
+
+frequency:
+  freq: 25
+
+prompt:
+  text_prompt: "build a tower"
+
+environment:
+  env_seed: 
+    - 200
+    - 201
+    - 203
+    - 206
+    - 210
+    - 215
+    - 221
+    - 228
+    - 245
+    - 250
+  preferred_spawn_biome: plains
+  custom_init_commands:
+    - /gamerule keepInventory true
+  inventory:
+    - type: dirt
+      quantity: 64
+    - type: dirt
+      quantity: 64
+    - type: dirt
+      quantity: 64
+    - type: dirt
+      quantity: 64
+    - type: dirt
+      quantity: 64
+    - type: dirt
+      quantity: 64
+    - type: dirt
+      quantity: 64
+    - type: dirt
+      quantity: 64
+    - type: dirt
+      quantity: 64

@@ -1,0 +1,33 @@
+model:
+  in_model: data/weights/vpt/2x.model
+  in_weights: data/weights/steve1/steve1.weights
+
+conditioning:
+  cond_scale: 6.0
+
+gameplay:
+  gameplay_length: 3000
+
+dreamer:
+  dreamer_url: http://10.140.1.104:25547/
+
+frequency:
+  freq: 25
+
+prompt:
+  text_prompt: "chop a tree"
+
+environment:
+  env_seed: 
+    - 6
+    - 7
+    - 12
+    - 16
+    - 21
+    - 27
+    - 34
+    - 701
+    - 703
+    - 706
+  preferred_spawn_biome: forest
+  inventory:

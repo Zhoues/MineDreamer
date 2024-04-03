@@ -1,0 +1,34 @@
+model:
+  in_model: data/weights/vpt/2x.model
+  in_weights: data/weights/steve1/steve1.weights
+
+conditioning:
+  cond_scale: 6.0
+
+gameplay:
+  gameplay_length: 3000
+
+dreamer:
+  dreamer_url: 
+
+frequency:
+  freq: 25
+
+prompt:
+  text_prompt: "dig down"
+
+environment:
+  env_seed: 
+    - 300
+    - 301
+    - 303
+    - 306
+    - 310
+    - 315
+    - 321
+    - 328
+    - 336
+    - 345
+  preferred_spawn_biome: plains
+  custom_init_commands:
+  inventory:

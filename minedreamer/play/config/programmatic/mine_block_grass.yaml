@@ -1,0 +1,33 @@
+model:
+  in_model: data/weights/vpt/2x.model
+  in_weights: data/weights/steve1/steve1.weights
+
+conditioning:
+  cond_scale: 6.0
+
+gameplay:
+  gameplay_length: 3000
+
+dreamer:
+  dreamer_url: 
+
+frequency:
+  freq: 25
+
+prompt:
+  text_prompt: "break grass"
+
+environment:
+  env_seed: 
+    - 100
+    - 101
+    - 106
+    - 110
+    - 121
+    - 136
+    - 145
+    - 900
+    - 901
+    - 906
+  preferred_spawn_biome: plains
+  inventory:
