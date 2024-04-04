@@ -3,7 +3,7 @@
 <div align="center">
 <h1><img src="img/logo.png" alt="Logo" style="height:50px;vertical-align:middle"><i>MineDreamer</i> : Learning to Follow Instructions via </center> <br> <center>Chain-of-Imagination for Simulated-World Control </h1>
 
-🥰 **If you are interested in our work, feel free to star** ⭐ **our repo to support us !**
+🥰 **If you are interested in our work, feel free to star ⭐ or watch 👓 our repo for the latest updates🤗!!**
 
 🚧 [Project Page](https://sites.google.com/view/minedreamer/main) |  📖 [Arxiv](https://arxiv.org/abs/2403.12037) | 🗒️ [PDF](https://arxiv.org/pdf/2403.12037.pdf) | 🚩[Dataset](https://huggingface.co/datasets/Zhoues/Goal-Drift-Dataset)
 
