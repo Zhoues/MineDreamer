@@ -61,7 +61,7 @@ We provide MineDreamer models for you to play with, including all three training
 | model                     | training stage | size   | HF weights🤗                                                  | HF dataset 🤗                                                 |
 | ------------------------- | -------------- | ------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Pre-trained Q-Former      | 1              | 261MB  | [Pretrained-QFormer](https://huggingface.co/Zhoues/Pretrained-QFormer-7B) |                                                              |
-| InstructPix2Pix U-Net     | 2              | 3.44GB | [MineDreamer-InstructPix2Pix-Unet](https://huggingface.co/Zhoues/MineDreamer-InstructPix2Pix-Unet) | [Goal-Drift-Dataset](https://huggingface.co/datasets/Zhoues/Goal-Drift-Dataset) |
+| InstructPix2Pix U-Net     | 2              | 3.44GB | [InstructPix2Pix-Unet](https://huggingface.co/Zhoues/MineDreamer-InstructPix2Pix-Unet) | [Goal-Drift-Dataset](https://huggingface.co/datasets/Zhoues/Goal-Drift-Dataset) |
 | MineDreamer-Imaginator-7B | 3              | 17.7GB | [MineDreamer-7B](https://huggingface.co/Zhoues/MineDreamer-7B/) | [Goal-Drift-Dataset](https://huggingface.co/datasets/Zhoues/Goal-Drift-Dataset) |
 
 
