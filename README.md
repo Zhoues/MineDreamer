@@ -5,11 +5,13 @@
 
 🥰 **If you are interested in our work, feel free to star ⭐ or watch 👓 our repo for the latest updates🤗!!**
 
-🚧 [Project Page](https://sites.google.com/view/minedreamer/main) |  📖 [Arxiv](https://arxiv.org/abs/2403.12037) | 🗒️ [PDF](https://arxiv.org/pdf/2403.12037.pdf) | 🚩[Dataset](https://huggingface.co/datasets/Zhoues/Goal-Drift-Dataset)
 
+[![arXiv](https://img.shields.io/badge/arXiv%20papr-2403.12037-b31b1b.svg)](https://arxiv.org/abs/2403.12037)&nbsp;
+[![project page](https://img.shields.io/badge/More%20Demo%20video%21-project%20page-lightblue)](https://sites.google.com/view/minedreamer/main)
 
-[<img src="https://img.shields.io/badge/Framework-PyTorch-red.svg"/>](https://pytorch.org/)<!-- ![visitors](https://visitor-badge.laobi.icu/badge?page_id=zhoues.MineDreamer&left_color=green&right_color=red) -->
-[![License](https://img.shields.io/badge/License-Apache-green.svg "License")](https://www.apache.org/licenses/LICENSE-2.0)
+[![huggingface weights](https://img.shields.io/badge/%F0%9F%A4%97%20Weights-Zhoues/MineDreamer_7B-yellow)](https://huggingface.co/Zhoues/MineDreamer-7B)&nbsp;
+[![huggingface weights](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-Zhoues/Goal_Drift_Dataset-yellow)](https://huggingface.co/datasets/Zhoues/Goal-Drift-Dataset)&nbsp;
+
 </div>
 
 
@@ -52,10 +54,25 @@ The code and checkpoints are released and the open-source contents include the f
 ├── download_minedreamer_weights.sh: download minedreamer and other pre-trained weights for Imaginator training.
 ```
 
+### Model Zoo and Dataset
+
+We provide MineDreamer models for you to play with, including all three training stages checkpoints, and datasets. You can be downloaded from the following links:
+
+| model                     | training stage | size   | HF weights🤗                                                  | HF dataset 🤗                                                 |
+| ------------------------- | -------------- | ------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Pre-trained Q-Former      | 1              | 261MB  | [Pretrained-QFormer](https://huggingface.co/Zhoues/Pretrained-QFormer-7B) |                                                              |
+| InstructPix2Pix U-Net     | 2              | 3.44GB | [MineDreamer-InstructPix2Pix-Unet](https://huggingface.co/Zhoues/MineDreamer-InstructPix2Pix-Unet) | [Goal-Drift-Dataset](https://huggingface.co/datasets/Zhoues/Goal-Drift-Dataset) |
+| MineDreamer-Imaginator-7B | 3              | 17.7GB | [MineDreamer-7B](https://huggingface.co/Zhoues/MineDreamer-7B/) | [Goal-Drift-Dataset](https://huggingface.co/datasets/Zhoues/Goal-Drift-Dataset) |
+
+
+
+
+
+
 
 
 ### Step 1: Install MineRL Env and Run Baseline
-**It's worth noting that if you wish to only train or test the Imaginator, you can skip Step 1.**
+**It's worth noting that if you wish only to train or test the Imaginator, you can skip Step 1.**
 
 1. We provide two methods for installing the MineRL environment. Detailed instructions can be found in [this repo](https://github.com/Zhoues/minerl-apptainer). Please ensure you complete the final test, otherwise the Agent will not function correctly.
 2. Download the weights (Baseline weights + Prompt Generator weights): `sh download_baseline_weights.sh`
