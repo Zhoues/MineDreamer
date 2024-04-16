@@ -76,17 +76,22 @@ We provide MineDreamer models for you to play with, including all three training
 
 1. We provide two methods for installing the MineRL environment. Detailed instructions can be found in [this repo](https://github.com/Zhoues/minerl-apptainer). Please ensure you complete the final test, otherwise the Agent will not function correctly.
 2. Download the weights (Baseline weights + Prompt Generator weights): `sh download_baseline_weights.sh`
-3. Run Baseline. If you use the Normal Installation Procedure, ignore the part of [], and if you use cluster like slurm, replace `sudo` with `srun -p <your virtual partition> --gres=gpu:1`.
+3. Run Baseline. If you use cluster like slurm, replace `sudo` with `srun -p <your virtual partition> --gres=gpu:1`.
     ```bash
-    # If the server is headful
-    [sudo apptainer exec -w --nv --bind /path/to/MineDreamer:/path/to/MineDreamer vgl-env] sh play/programmatic/steve1_play_w_text_prompt.sh mine_block_wood
+    # If you use the Normal Installation Procedure to install MineRL Env and the server is headful
+    sh play/programmatic/steve1_play_w_text_prompt.sh mine_block_wood
 
-    # If the server is headless
-    [sudo apptainer exec -w --nv --bind /path/to/MineDreamer:/path/to/MineDreamer vgl-env] sh play/programmatic/XVFB_steve1_play_w_text_prompt.sh mine_block_wood
+    # If you use the Normal Installation Procedure to install MineRL Env and the server is headless
+    sh play/programmatic/XVFB_steve1_play_w_text_prompt.sh mine_block_wood
 
-    # GPU rendering via apptainer container
+    # If you use the container to install MineRL Env
+    sudo apptainer exec -w --nv --bind /path/to/MineDreamer:/path/to/MineDreamer vgl-env sh play/programmatic/XVFB_steve1_play_w_text_prompt.sh mine_block_wood
+
+    # If you use the container to install MineRL Env and run by GPU rendering
     sudo apptainer exec -w --nv --bind /path/to/MineDreamer:/path/to/MineDreamer vgl-env bash setupvgl.sh play/programmatic/XVFB_steve1_play_w_text_prompt.sh mine_block_wood
     ```
+
+    Then, you will see in `data/play` the intermediate processes and the final video of Agent acting according to the instructions.
 
 ### Step 2: Install Imaginator Env and Run *MineDreamer* Agent
 
