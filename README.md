@@ -183,7 +183,8 @@ More demo videos and Imagination visual results are on our [project webpage](htt
 ## Building a more generalist embodied agent 
 A generalist embodied agent should have a high-level planner capable of perception and planning in an open world, as well as a low-level controller able to act in complex environments. The *MineDreamer* agent can steadily follow short-horizon text instructions, making it suitable as a low-level controller for generating control signals. For high-level planner, including perception and task planning in an open world, one can look to the methods presented in **[CVPR2024's MP5](https://github.com/IranQin/MP5), whose code is also released!** It is adept at planning for tasks that require long-horizon sequencing and extensive environmental awareness. Therefore, combining MP5 with *MineDreamer* presents a promising approach to developing more generalist embodied agents.
 
-
+## Acknowledgment
+This repository is built upon the codebase of [LLaVA](https://github.com/haotian-liu/LLaVA), [STEVE-1](https://github.com/Shalev-Lifshitz/STEVE-1) and [SmartEdit](https://github.com/TencentARC/SmartEdit).
 
 ## 📑 Citation
 
