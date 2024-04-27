@@ -119,7 +119,7 @@ This codebase has strict environmental requirements; we recommend you follow the
         ```
         fused_adam ............. [YES] ...... [OKAY]
         ```
-5. Download the weights (Imaginator weights + pre-trained weights for training): `sh download_minedreamer_weights.sh`
+5. Download the weights (Imaginator weights + pre-trained weights for training): `sh download_minedreamer_weights.sh` and remove the original LoRA parameters from Huggingface's LLaVA with: `bash scripts/pre_llava.sh`.
 6. Try inferencing the Imaginator and  (InstructPix2Pix). You can find generated images in `inference_valid_*` folder. 
     ```bash
     # InstructPix2Pix 
@@ -146,8 +146,7 @@ This codebase has strict environmental requirements; we recommend you follow the
 ### Step 3: Train your own Imaginator
 1. First, download the [Goal Drift Dataset](https://huggingface.co/datasets/Zhoues/Goal-Drift-Dataset) and place it in the `data/mllm_diffusion_dataset` directory and unzip it.
 2. To train the Unet parameters of InstructPix2Pix, execute: `bash scripts/train_InstructPix2Pix_minecraft.sh`. This checkpoint can also be used as baseline.
-3. Remove the original LoRA parameters from Huggingface's LLaVA with: `bash scripts/pre_llava.sh`.
-4. Train Imaginator-7B by running: `bash scripts/train_MineDreamer.sh`.
+3. Train Imaginator-7B by running: `bash scripts/train_MineDreamer.sh`.
 
 ## 🕶️Overview
 
