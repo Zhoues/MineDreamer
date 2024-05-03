@@ -66,6 +66,7 @@ def main():
 
     # 3. Edited Prompt input_ids
     text_prompt = args.text_prompt
+    save_dir = args.save_dir
 
     input_image.save(os.path.join(save_dir, f'{(pair_id + 1):04d}_input.png'))
 
