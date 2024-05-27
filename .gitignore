@@ -190,3 +190,6 @@ vgl-env/
 
 # database
 mapping_db/
+
+# test
+test/

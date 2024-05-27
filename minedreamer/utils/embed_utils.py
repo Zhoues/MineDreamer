@@ -4,6 +4,7 @@ from tqdm import tqdm
 from minedreamer.data.EpisodeStorage import EpisodeStorage
 from minedreamer.data.generation.FrameBuffer import QueueFrameBuffer
 from minedreamer.data.utils.contractor import process_frame_mineclip
+from minedreamer.utils.video_utils import load_video_to_lst
 
 @torch.no_grad()
 def get_prior_embed_from_text_instruction(text, mineclip, prior, device):
@@ -38,6 +39,25 @@ def get_prior_embed_from_text_embed(text_embed, prior, device):
     with torch.no_grad(), torch.cuda.amp.autocast():
         text_prompt_embed = prior(torch.tensor(text_embed).float().to(device)).cpu().detach().numpy()
     return text_prompt_embed
+
+@torch.no_grad()
+def get_visual_embed_from_video(video_filepath, mineclip, start_frame_id=0):
+    end_frame_id = start_frame_id + 16
+    video_frames = load_video_to_lst(filepath=video_filepath, to_rgb=True, 
+                               only_range=[start_frame_id, end_frame_id], 
+                               length=end_frame_id)
+
+    frame_buffer = QueueFrameBuffer()
+
+    for frame_id in range(start_frame_id, end_frame_id):
+        frame_mineclip = process_frame_mineclip(video_frames[frame_id])
+        frame_buffer.add_frame(frame_mineclip)
+
+    video_embed = embed_videos_mineclip_batched(frame_buffer, mineclip, 'cuda', 1)[0]
+
+    assert video_embed.shape == (1, 512)
+
+    return video_embed
 
 @torch.no_grad()
 def get_visual_embed_from_episode(episode_dirpath, timestep):
