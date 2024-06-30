@@ -196,10 +196,11 @@ If you find *MineDreamer* and MP5 useful for your research and applications, ple
   year={2024}
 }
 
-@article{qin2023mp5,
-  title={Mp5: A multi-modal open-ended embodied system in minecraft via active perception},
+@inproceedings{qin2024mp5,
+  title={MP5: A Multi-modal Open-ended Embodied System in Minecraft via Active Perception},
   author={Qin, Yiran and Zhou, Enshen and Liu, Qichang and Yin, Zhenfei and Sheng, Lu and Zhang, Ruimao and Qiao, Yu and Shao, Jing},
-  journal={arXiv preprint arXiv:2312.07472},
-  year={2023}
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={16307--16316},
+  year={2024}
 }
 ```
