@@ -33,4 +33,4 @@ unzip data/memory.zip -d data
 rm data/memory.zip
 
 # MineDreamer Multi-Modal Memory
-gdown https://drive.google.com/uc?id=1qevCKLtv6GMAHefu66k3Nqt3sN9hmOEf -O data/prompt_mapping/prompt_to_key.json
+gdown https://drive.google.com/uc?id=18qWkEzt4z5AagNsVeSBtN2ctROGgYL2R -O data/prompt_mapping/prompt_to_key.json
