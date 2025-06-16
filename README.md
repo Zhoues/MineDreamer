@@ -16,7 +16,10 @@
 
 
 ## 🔥 Updates
-[2024-04-03] 🔥🔥🔥 *MineDreamer* code is released. Let's enjoy the Imagination ability of the embodied agent!
+
+[2025-06-16] 🔥🔥🔥 *MineDreamer* (a.k.a. *DecisionDreamer*) is selected as <em><b><span style="color: #FF0000;">Oral Presentation</span></b></em> in IROS 2025!
+
+[2024-04-03] *MineDreamer* code is released. Let's enjoy the Imagination ability of the embodied agent!
 
 [2024-03-19] *MineDreamer* is released on [arxiv](https://arxiv.org/abs/2403.12037).
 
